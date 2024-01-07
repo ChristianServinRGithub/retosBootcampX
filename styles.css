@@ -1,0 +1,94 @@
+body,
+html {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+  height: 100px;
+  background-color: rgb(129, 238, 238);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+h1 {
+  color: black;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+}
+
+li {
+  list-style: none;
+  transition: transform 1s;
+}
+li:hover {
+    transform: translateY(-10px);
+}
+
+.nav-a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.nav-a:hover {
+  color: rgb(93, 155, 176);
+}
+#main {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cards {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 300px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -10px 0px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 1s;
+}
+.cards:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 225);
+}
+
+a:hover {
+  color: rgb(93, 155, 176);
+}
+
+footer {
+  height: 100px;
+  background-color: rgb(129, 238, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}

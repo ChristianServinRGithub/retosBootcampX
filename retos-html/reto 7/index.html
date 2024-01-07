@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo de HTML con Formularios</title>
+  </head>
+  <body style="background-color: white;">
+    <h1>Formularios en HTML</h1>
+    <h2>Datos Personales</h2>
+    <fieldset>
+      <label for="name">Nombre:</label>
+      <input type="text" name="name" id="name" placeholder="Tú Nombre" />
+      <br />
+      <label for="email">Correo Electrónico:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="TúEmail@gmail.com"
+      />
+      <br />
+      <label for="number">Teléfono:</label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        placeholder="123-456-78-90"
+      />
+      <br />
+    </fieldset>
+    <h2>Género</h2>
+    <input type="radio" id="male" value="male" name="gender" />
+    <label for="male">Maculino</label>
+    <br />
+    <input type="radio" id="female" value="female" name="gender" />
+    <label for="female">Femenino</label>
+    <br />
+    <input type="radio" id="other" value="other" name="gender" />
+    <label for="other">Otro</label>
+    <h2>Preferencias</h2>
+    <input
+      type="checkbox"
+      id="musicPreference"
+      value="music"
+      name="formPreferences"
+    />
+    <label for="musicPreference">Música</label>
+    <br />
+    <input
+      type="checkbox"
+      id="sportsPreference"
+      value="sports"
+      name="formPreferences"
+    />
+    <label for="sportsPreference">Deportes</label>
+    <br />
+    <input
+      type="checkbox"
+      id="lecturePreference"
+      value="music"
+      name="formPreferences"
+    />
+    <label for="lecturePreference">Lectura</label>
+    <br />
+    <h2>Comentarios</h2>
+    <textarea name="coments" id="formComents" cols="50" rows="5"></textarea>
+    <br />
+    <button type="submit">Enviar</button>
+  </body>
+</html>

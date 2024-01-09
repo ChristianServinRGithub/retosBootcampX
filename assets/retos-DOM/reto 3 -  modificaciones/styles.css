@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #8cc3f3;
+    text-align: center;
+  }
+  header {
+    background-color: #323232;
+    color: white;
+    padding: 1rem;
+  }
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+  #circulo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #34fa54;
+  }
+  .red {
+    color: red;
+  }
+
+  footer {
+    background-color: #323232;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    color: white;
+  }

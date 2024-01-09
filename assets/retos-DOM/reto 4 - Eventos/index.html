@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./script2.js"></script>
+    <title>Tienda en Linea</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Tienda en Línea</h1>
+        <nav class="navegacion">
+            <ul>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Inicio</a>
+
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Productos</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Contacto</a>
+                </li>
+                <li id="carrito">Cantidad de productos agregados: <span id="cantidad-carrito">0</span></li>
+                <li id="Total">Total de su compra: <span id="cantidad-total">0</span></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="cards">
+            <img src="./assets/dia-hamburguesa-e1684977814759.webp" alt="Hamburguesa">
+            <h2>Hamburguesa</h2>
+            <p>Deliciosa Hamburguesa con doble carne, doble queso, doble tocino, pimientos sobre nuestra salasa secreta
+            </p>
+            <p>precio: $<span id="precio-hamburgesa">10</span></p>
+            <button class="agregar-carrito1" type="submit">Agregar al carrito</button>
+        </section>
+        <section class="cards">
+            <img src="./assets/900X570_Mexican-Style-Hot-Dogs.jpg" alt="HotDog">
+            <h2>HotDog</h2>
+            <p>Esquicito Hot-Dog con salchicha de pavo, tomate, cebolla, chiles y acompañado con papas</p>
+            <p>precio: $ <span id="precio-hotDog">6</span></p>
+            <button class="agregar-carrito2" type="submit">Agregar al carrito</button>
+        </section>
+        <section class="cards">
+            <img src="./assets/15-09-26-RalfR-WLC-0098_-_Coca-Cola_glass_bottle_(Germany).jpg" alt="Refresco">
+            <h2>Coca-Cola</h2>
+            <p>Refrescante Coca-Cola</p>
+            <p>precio: $ <span class="precio-cocaCola">5</span></p>
+            <button class="agregar-carrito3" type="submit">Agregar al carrito</button>
+        </section>
+    </main>
+    <div class="mensaje-verde" id="mensaje-verde">
+        <p id="mensaje-contenido">Producto añadido al carrito</p>
+    </div>
+    <footer>
+        <small>&#169; 2023 Tienda en Linea. Todos los derechos reservados by Christian DEV</small>
+    </footer>
+</body>
+
+</html>

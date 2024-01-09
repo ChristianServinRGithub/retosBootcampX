@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+  height: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: white;
+  background-color: #323232;
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 200px;
+}
+
+li {
+  list-style: none;
+}
+  
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(47, 47, 231);
+  cursor: pointer;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.cards {
+  height: 400px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s;
+  
+}
+
+.cards:hover {
+  transform: scale(1.07);
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.agregar-carrito1,
+.agregar-carrito2,
+.agregar-carrito3 {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.agregar-carrito1:hover,
+.agregar-carrito2:hover,
+.agregar-carrito3:hover {
+  background-color: #45a049;
+}
+
+footer {
+  height: 100px;
+  color: white;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#mensaje-verde {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5%;
+  left: 10%;
+  width: 200px;
+  height: 50px;
+  background-color: #4caf50; /* Cambiado a verde */
+  color: white;
+  padding: 10px;
+  border-radius: 0; /* Sin bordes redondeados */
+  text-align: center;
+  z-index: 1000; /* Colocar sobre otros elementos */
+}
